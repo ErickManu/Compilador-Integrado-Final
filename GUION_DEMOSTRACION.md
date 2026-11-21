@@ -1,4 +1,4 @@
-# Guion breve para demostrar el compilador
+
 
 Este es nuestro compilador integrado. Recibe un código escrito en un Java simplificado, lo analiza y lo traduce a JavaScript para poder ejecutarlo en el navegador.
 
