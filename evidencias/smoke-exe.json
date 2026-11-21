@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "frozen": true,
+  "checks": [
+    "python: análisis, símbolos, intermedio, JS, exportación y errores",
+    "flex: análisis, símbolos, intermedio, JS, exportación y errores",
+    "Tkinter: ventana, análisis y vistas integradas"
+  ]
+}

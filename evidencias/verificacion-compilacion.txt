@@ -1,0 +1,132 @@
+Ejecutando pruebas...
+test_invalid_examples_do_not_export (test_cli.ConsoleTests.test_invalid_examples_do_not_export) ... ok
+test_missing_input_and_invalid_output (test_cli.ConsoleTests.test_missing_input_and_invalid_output) ... ok
+test_valid_source_exports_and_displays_results (test_cli.ConsoleTests.test_valid_source_exports_and_displays_results) ... ok
+test_invalid_inputs_report_correct_phase (test_execution.FlexTests.test_invalid_inputs_report_correct_phase) ... ok
+test_tokens_match_python_including_unicode_columns (test_execution.FlexTests.test_tokens_match_python_including_unicode_columns) ... ok
+test_both_right_operands_and_nested_logic (test_execution.IntermediateTests.test_both_right_operands_and_nested_logic) ... ok
+test_empty_program (test_execution.IntermediateTests.test_empty_program) ... ok
+test_nested_loop_reinitializes_local_declarations (test_execution.IntermediateTests.test_nested_loop_reinitializes_local_declarations) ... ok
+test_precedence_branches_scopes_and_loops (test_execution.IntermediateTests.test_precedence_branches_scopes_and_loops) ... ok
+test_short_circuit_skips_right_operand (test_execution.IntermediateTests.test_short_circuit_skips_right_operand) ... ok
+test_browser_html_executes_external_js_and_captures_output (test_execution.JavascriptTests.test_browser_html_executes_external_js_and_captures_output) ... ok
+test_escapes_leading_zeroes_and_unary (test_execution.JavascriptTests.test_escapes_leading_zeroes_and_unary) ... ok
+test_full_example (test_execution.JavascriptTests.test_full_example) ... ok
+test_shadowing_preserves_earlier_reads_of_outer_variable (test_execution.JavascriptTests.test_shadowing_preserves_earlier_reads_of_outer_variable) ... ok
+test_assignment_in_both_branches (test_pipeline.PipelineTests.test_assignment_in_both_branches) ... ok
+test_auto_falls_back_to_python (test_pipeline.PipelineTests.test_auto_falls_back_to_python) ... ok
+test_basic_translation (test_pipeline.PipelineTests.test_basic_translation) ... ok
+test_comments (test_pipeline.PipelineTests.test_comments) ... ok
+test_deep_nesting_is_reported (test_pipeline.PipelineTests.test_deep_nesting_is_reported) ... ok
+test_definite_initialization (test_pipeline.PipelineTests.test_definite_initialization) ... ok
+test_double_accepts_int (test_pipeline.PipelineTests.test_double_accepts_int) ... ok
+test_double_to_int_rejected (test_pipeline.PipelineTests.test_double_to_int_rejected) ... ok
+test_duplicate_declaration (test_pipeline.PipelineTests.test_duplicate_declaration) ... ok
+test_example (test_pipeline.PipelineTests.test_example) ... ok
+test_explicit_flex_requires_binary (test_pipeline.PipelineTests.test_explicit_flex_requires_binary) ... ok
+test_incompatible_type (test_pipeline.PipelineTests.test_incompatible_type) ... ok
+test_invalid_boolean_condition (test_pipeline.PipelineTests.test_invalid_boolean_condition) ... ok
+test_js_reserved_name (test_pipeline.PipelineTests.test_js_reserved_name) ... ok
+test_lexical_invalid (test_pipeline.PipelineTests.test_lexical_invalid) ... ok
+test_more_errors_with_locations (test_pipeline.PipelineTests.test_more_errors_with_locations) ... ok
+test_multiple_semantic_errors (test_pipeline.PipelineTests.test_multiple_semantic_errors) ... ok
+test_nested_scope (test_pipeline.PipelineTests.test_nested_scope) ... ok
+test_non_numeric_addition (test_pipeline.PipelineTests.test_non_numeric_addition) ... ok
+test_out_of_scope (test_pipeline.PipelineTests.test_out_of_scope) ... ok
+test_partial_results_and_phase_report (test_pipeline.PipelineTests.test_partial_results_and_phase_report) ... ok
+test_syntactic_missing_semicolon (test_pipeline.PipelineTests.test_syntactic_missing_semicolon) ... ok
+test_unknown_var (test_pipeline.PipelineTests.test_unknown_var) ... ok
+test_compile_populates_all_views (test_ui.InterfaceTests.test_compile_populates_all_views) ... ok
+test_edit_and_load_clear_stale_results (test_ui.InterfaceTests.test_edit_and_load_clear_stale_results) ... ok
+test_errors_preserve_partial_analysis_and_clear_generated_code (test_ui.InterfaceTests.test_errors_preserve_partial_analysis_and_clear_generated_code) ... ok
+test_export_error_is_visible (test_ui.InterfaceTests.test_export_error_is_visible) ... ok
+test_save_and_browser_target (test_ui.InterfaceTests.test_save_and_browser_target) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 3.603s
+
+OK
+Creando ejecutable Windows...
+344 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+345 INFO: Python: 3.12.6
+395 INFO: Platform: Windows-11-10.0.26300-SP0
+395 INFO: Python environment: <PERFIL_USUARIO>\AppData\Local\Programs\Python\Python312
+406 INFO: Module search paths (PYTHONPATH):
+['<PROYECTO>',
+ '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip',
+ '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\DLLs',
+ '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib',
+ '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312',
+ '<PERFIL_USUARIO>\\AppData\\Roaming\\Python\\Python312\\site-packages',
+ '<PERFIL_USUARIO>\\AppData\\Roaming\\Python\\Python312\\site-packages\\win32',
+ '<PERFIL_USUARIO>\\AppData\\Roaming\\Python\\Python312\\site-packages\\win32\\lib',
+ '<PERFIL_USUARIO>\\AppData\\Roaming\\Python\\Python312\\site-packages\\Pythonwin',
+ '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages',
+ '<PROYECTO>']
+pygame 2.6.1 (SDL 2.28.4, Python 3.12.6)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+1763 INFO: Appending 'binaries' from .spec
+1764 INFO: Appending 'datas' from .spec
+1765 INFO: checking Analysis
+1815 INFO: Building because <PROYECTO>\translator.py changed
+1815 INFO: Looking for Python shared library...
+1815 INFO: Using Python shared library: <PERFIL_USUARIO>\AppData\Local\Programs\Python\Python312\python312.dll
+1815 INFO: Running Analysis Analysis-00.toc
+1815 INFO: Target bytecode optimization level: 0
+1815 INFO: Initializing module dependency graph...
+1822 INFO: Initializing module graph hook caches...
+1848 INFO: Analyzing modules for base_library.zip ...
+4771 INFO: Processing standard module hook 'hook-encodings.py' from '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+5767 INFO: Processing standard module hook 'hook-math.py' from '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+6079 INFO: Processing standard module hook 'hook-heapq.py' from '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+7383 INFO: Processing standard module hook 'hook-pickle.py' from '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+9359 INFO: Caching module dependency graph...
+9425 INFO: Analyzing <PROYECTO>\main.py
+9446 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+9450 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+10085 INFO: Processing standard module hook 'hook-_tkinter.py' from '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+10128 INFO: Processing standard module hook 'hook-webbrowser.py' from '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+10393 INFO: Processing module hooks (post-graph stage)...
+10398 INFO: Processing standard module hook 'hook-_tkinter.py' from '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+10414 INFO: Performing binary vs. data reclassification (931 entries)
+10635 INFO: Looking for ctypes DLLs
+10642 INFO: Analyzing run-time hooks ...
+10644 INFO: Including run-time hook 'pyi_rth_inspect.py' from '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+10648 INFO: Including run-time hook 'pyi_rth__tkinter.py' from '<PERFIL_USUARIO>\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+10686 INFO: Creating base_library.zip...
+10720 INFO: Looking for dynamic libraries
+11053 INFO: Extra DLL search directories (AddDllDirectory): []
+11054 INFO: Extra DLL search directories (PATH): []
+11887 INFO: Warnings written to <PROYECTO>\build\Compilador_Integrado\warn-Compilador_Integrado.txt
+11924 INFO: Graph cross-reference written to <PROYECTO>\build\Compilador_Integrado\xref-Compilador_Integrado.html
+11995 INFO: checking PYZ
+12032 INFO: Building because <PROYECTO>\translator.py changed
+12032 INFO: Building PYZ (ZlibArchive) <PROYECTO>\build\Compilador_Integrado\PYZ-00.pyz
+12321 INFO: Building PYZ (ZlibArchive) <PROYECTO>\build\Compilador_Integrado\PYZ-00.pyz completed successfully.
+12355 INFO: checking PKG
+12392 INFO: Building because toc changed
+12392 INFO: Building PKG (CArchive) Compilador_Integrado.pkg
+17944 INFO: Building PKG (CArchive) Compilador_Integrado.pkg completed successfully.
+17977 INFO: Bootloader <PERFIL_USUARIO>\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+17977 INFO: checking EXE
+18015 INFO: Building because toc changed
+18015 INFO: Building EXE from EXE-00.toc
+18018 INFO: Copying bootloader EXE to <PROYECTO>\dist\Compilador_Integrado.exe
+18090 INFO: Copying icon to EXE
+18155 INFO: Copying 0 resources to EXE
+18155 INFO: Embedding manifest in EXE
+18225 INFO: Appending PKG archive to EXE
+18322 INFO: Fixing EXE headers
+18690 INFO: Building EXE from EXE-00.toc completed successfully.
+18718 INFO: Build complete! The results are available in: <PROYECTO>\dist
+Verificando el ejecutable y sus recursos...
+{
+  "ok": true,
+  "frozen": true,
+  "checks": [
+    "python: an\u00e1lisis, s\u00edmbolos, intermedio, JS, exportaci\u00f3n y errores",
+    "flex: an\u00e1lisis, s\u00edmbolos, intermedio, JS, exportaci\u00f3n y errores",
+    "Tkinter: ventana, an\u00e1lisis y vistas integradas"
+  ]
+}
+Listo: dist\Compilador_Integrado.exe

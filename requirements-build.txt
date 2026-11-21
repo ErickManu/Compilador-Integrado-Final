@@ -1,0 +1,3 @@
+# Opcional: solo para reconstruir el ejecutable Windows.
+# La aplicacion y unittest usan la biblioteca estandar de Python.
+pyinstaller==6.22.3

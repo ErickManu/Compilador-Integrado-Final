@@ -1,0 +1,32 @@
+declare int a@global
+a@global = 10
+declare int b@global
+b@global = 20
+declare String nombre@global
+nombre@global = "Compilador integrado"
+declare boolean mostrar@global
+mostrar@global = true
+declare int contador@global
+contador@global = 0
+print nombre@global
+t1 = a@global + b@global
+print t1
+t2 = mostrar@global
+if_false mostrar@global goto L3
+t3 = a@global < b@global
+t2 = t3
+L3:
+if_false t2 goto L1
+print "La condición se cumple"
+goto L2
+L1:
+print "No se cumple"
+L2:
+L4:
+t4 = contador@global < 3
+if_false t4 goto L5
+print contador@global
+t5 = contador@global + 1
+contador@global = t5
+goto L4
+L5:

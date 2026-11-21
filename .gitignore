@@ -1,0 +1,58 @@
+# Python y entornos locales
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Resultados de compilacion y paquetes de entrega
+/build/
+/dist/
+/entrega/
+*.zip
+*.exe
+*.dll
+*.msi
+
+# Credenciales y configuracion privada local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+id_rsa
+id_ed25519
+credentials*.json
+*service-account*.json
+
+# Exportaciones de pruebas manuales y duplicados generados en flex/
+/salida_demo/
+/salida_completa/
+/salida_flex/
+/flex/index.html
+/flex/programa.js
+
+# Archivos temporales, configuracion del editor y del sistema
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Los binarios se conservan localmente y en el ZIP de la Release,
+# pero no se versionan. flex/lex.yy.c y lexer.l permiten reconstruir FLEX.
+# ejecucion/ conserva la demostracion JS + HTML + intermedio.
+# El .spec y evidencias/ tambien forman parte de la entrega.
